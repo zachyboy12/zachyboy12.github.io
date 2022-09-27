@@ -59,6 +59,7 @@ Message:
     width: 320px;
     background-color: #edeff0;
     border-radius: 8px;
+    border-color: grey
   }
   
 </style>
