@@ -56,7 +56,6 @@ Message:
   }
   button {
     width: 320px;
-    color: white;
     background-color: #edeff0;
   }
 </style>
