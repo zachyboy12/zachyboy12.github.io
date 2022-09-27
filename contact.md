@@ -8,7 +8,7 @@ Message:
 <textarea id="body" rows="15" cols="60"></textarea>
 <br>
 <br>
-<button id="notARobotElement" onclick="imNotARobot()">I'm Not A Robot ❌</button>
+<button id="notARobotElement" onclick="imNotARobot()">I'm A Robot ❌</button>
 <br>
 <br>
 <button onclick="sendEmail()">Send</button>
@@ -42,8 +42,14 @@ Message:
     }
   }
   function imNotARobot() {
-    notARobot = true;
     let notARobotElement = document.getElementById("notARobotElement");
-    notARobotElement.innerText = "I'm Not A Robot ✅";
+    if (!notARobot) {
+      notARobot = true;
+      notARobotElement.innerText = "I'm Not A Robot ✅";
+    }
+    else {
+      notARobot = false;
+      notARobotElement.innerText = "I'm A Robot ❌"
+    }
   }
 </script>
