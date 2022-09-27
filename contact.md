@@ -25,7 +25,7 @@ Message:
     let a3 = 'lto:'; 
     let a2 = 'zac'; 
     let a6 = 'h@aggelous.';
-    let a10 = 'com&subject='; 
+    let a10 = 'com?subject='; 
     let a4 = '&body=';
     if (notARobot) {
       window.open(a1 + a3 + a2 + a6 + a10 + subject + a4 + body);
