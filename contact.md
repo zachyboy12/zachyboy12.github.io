@@ -17,6 +17,13 @@ Message:
 <div id="message"></div>
 <script>
   let notARobot = false;
+  var input = document.querySelector('subject');
+  input.addEventListener('input', resizeInput);
+  resizeInput.call(input);
+
+  function resizeInput() {
+    this.style.width = this.value.length + "ch";
+  }
   function sendEmail () {
     let messageElement = document.getElementById("message");
     let subject = document.getElementById("subject").value;
