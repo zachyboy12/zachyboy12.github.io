@@ -47,3 +47,9 @@ Message:
     }
   }
 </script>
+<style>
+  * {
+    text-align: center;
+    align: center;
+  }
+</style>
