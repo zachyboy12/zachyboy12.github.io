@@ -54,4 +54,7 @@ Message:
     text-align: center;
     align: center;
   }
+  button {
+    width: 320px
+  }
 </style>
