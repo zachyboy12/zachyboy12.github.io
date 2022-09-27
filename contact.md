@@ -17,7 +17,7 @@ Message:
 <div id="message"></div>
 <script>
   let notARobot = false;
-  var input = document.querySelector('subject');
+  var input = document.getElementById('subject');
   input.addEventListener('input', resizeInput);
   resizeInput.call(input);
 
