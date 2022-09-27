@@ -2,7 +2,8 @@
 
 Subject:
 <br>
-<input id="subject" style="width: 320px" required>
+<br>
+<input id="subject" style="width: 320px; text-align: left-align" required>
 <br>
 <br>
 Message: 
@@ -59,4 +60,5 @@ Message:
     background-color: #edeff0;
     border-radius: 8px;
   }
+  
 </style>
