@@ -3,7 +3,7 @@
 Subject: <input id="subject" required>
 <br>
 <br>
-Message: <textarea id="body" rows="15" cols="60">
+Message: <textarea id="body" rows="15" cols="60"></textarea>
 <br>
 <br>
 <button onclick="sendEmail()">Send</button>
