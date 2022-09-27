@@ -3,7 +3,7 @@
 Subject:
 <br>
 <br>
-<input id="subject" style="width: 320px; text-align: left-align" required>
+<input id="subject" style="width: 320px" required>
 <br>
 <br>
 Message: 
@@ -52,10 +52,10 @@ Message:
 </script>
 <style>
   * {
-    text-align: center;
     align: center;
   }
   button {
+    text-align: center;
     width: 320px;
     background-color: #edeff0;
     border-radius: 8px;
