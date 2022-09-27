@@ -14,7 +14,7 @@ Message:
 <button onclick="notARobot = true">I'm Not A Robot</button>
 <br>
 <br>
-<div> id="message"</div>
+<div id="message"></div>
 <script>
   let notARobot = false;
   function sendEmail () {
