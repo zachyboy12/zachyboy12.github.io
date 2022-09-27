@@ -8,10 +8,10 @@ Message:
 <textarea id="body" rows="15" cols="60"></textarea>
 <br>
 <br>
+<button id="notARobotElement" onclick="imNotARobot()">I'm Not A Robot ❌</button>
+<br>
+<br>
 <button onclick="sendEmail()">Send</button>
-<br>
-<br>
-<button onclick="notARobot = true">I'm Not A Robot</button>
 <br>
 <br>
 <div id="message"></div>
@@ -20,7 +20,6 @@ Message:
   var input = document.getElementById('subject');
   input.addEventListener('input', resizeInput);
   resizeInput.call(input);
-
   function resizeInput() {
     this.style.width = this.value.length + "ch";
   }
@@ -41,5 +40,10 @@ Message:
     else {
       messageElement.innerHTML = "BOT DETECTED; SEND FAILED";
     }
+  }
+  function imNotARobot() {
+    notARobot = true;
+    let notARobotElement = document.getElementById("notARobotElement");
+    notARobotElement.innerText = "I'm Not A Robot ✓";
   }
 </script>
