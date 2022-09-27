@@ -1,6 +1,6 @@
 # Contact Me
 
-Subject:  <input id="subject" style="width: 20px" required>
+Subject:  <input id="subject" style="width: 200px" required>
 <br>
 <br>
 Message: 
