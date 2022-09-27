@@ -55,6 +55,8 @@ Message:
     align: center;
   }
   button {
-    width: 320px
+    width: 320px;
+    color: white;
+    background-color: #0D98BA;
   }
 </style>
