@@ -1,11 +1,11 @@
 # Contact Me
 
-Subject:  <input id="subject" style="width: 500px" required>
+Subject:&nbsp;&nbsp;<input id="subject" style="width: 320px" required>
 <br>
 <br>
 Message: 
 <br>
-<textarea id="body" rows="15" cols="40" style="resize: vertical"></textarea>
+<textarea id="body" rows="15" cols="50" style="resize: vertical"></textarea>
 <br>
 <br>
 <button id="notARobotElement" onclick="imNotARobot()">I'm Not A Robot ❌</button>
