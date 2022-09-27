@@ -1,10 +1,9 @@
 # Contact Me
 
-Subject: <input id="subject" required>
+Subject:  <input id="subject" required>
 <br>
 <br>
 Message: 
-<br>
 <br>
 <textarea id="body" rows="15" cols="60"></textarea>
 <br>
