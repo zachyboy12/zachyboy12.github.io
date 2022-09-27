@@ -3,12 +3,12 @@
 Subject:
 <br>
 <br>
-<input id="subject" style="width: 320px" required>
+<input id="subject" style="width: 320px; text-align: left" required>
 <br>
 <br>
 Message: 
 <br>
-<textarea id="body" rows="15" cols="40" style="resize: vertical"></textarea>
+<textarea id="body" rows="15" cols="40" style="resize: vertical; text-align: left"></textarea>
 <br>
 <br>
 <button id="notARobotElement" onclick="imNotARobot()">I'm Not A Robot ❌</button>
@@ -53,9 +53,9 @@ Message:
 <style>
   * {
     align: center;
+    text-align: center;
   }
   button {
-    text-align: center;
     width: 320px;
     background-color: #edeff0;
     border-radius: 8px;
