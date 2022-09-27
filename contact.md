@@ -44,6 +44,6 @@ Message:
   function imNotARobot() {
     notARobot = true;
     let notARobotElement = document.getElementById("notARobotElement");
-    notARobotElement.innerText = "I'm Not A Robot ✓";
+    notARobotElement.innerText = "I'm Not A Robot ✅";
   }
 </script>
