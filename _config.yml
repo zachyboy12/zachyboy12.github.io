@@ -1,5 +1,3 @@
 theme: jekyll-theme-cayman
 title: zachyboy12.github.io
 description: "Work in hard in silence, let success be the noise."
-http_headers:
-  Access-Control-Allow-Origin: "*"
